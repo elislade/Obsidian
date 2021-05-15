@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  Obsidian
+
+  Created by Eli Slade on 2018-06-02.
+  Copyright © 2018 Eli Slade. All rights reserved.
+*/
+
+"Buy" = "Achetez";
+"Sell" = "Vendre";
+"Okay" = "D'accord";
+"Questrade Did Revoke Access" = "Questrade a révoqué l'accès";
+"Please sign-in again!" = "Veuillez vous reconnecter!";
+"Recently Viewed" = "Vu récemment";
+"Canceled" = "Annulé";
+"Replaced" = "Remplacer";
+"Login" = "S'identifier";
+"Bid" = "Bid";
+"Ask" = "Ask";
+"Enable Notifications!" = "Enable Notifications!";
+"Turn on notifications in settings to get daily updates on how you're doing." = "Turn on notifications in settings to get daily updates on how you're doing.";
+"Open Settings" = "Open Settings";
+"Ask Later" = "Ask Later";
+"Error!" = "Error!";
+"Okay" = "Okay";
+"Obsidian User Agreement" = "Obsidian User Agreement";
+"How you did today" = "How you did today";

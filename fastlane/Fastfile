@@ -1,0 +1,82 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+    lane :generate_iphone_store_shots do
+        capture_screenshots(
+            workspace: "Obsidian.xcworkspace",
+            scheme: "ObsidianUITests",
+            devices: [
+                "iPhone XS","iPhone XS Max","iPhone 8","iPhone 8 Plus","iPhone SE",
+            ],
+            test_without_building: true,
+            derived_data_path:"~/Library/Developer/Xcode/DerivedData/Obsidian-dosxvrgfycqusuhgwmjseyrohbtg"
+        )
+    end
+
+    lane :generate_ipad_store_shots do
+        capture_screenshots(
+            workspace: "Obsidian.xcworkspace",
+            scheme: "ObsidianUITests",
+            devices:[
+                "iPad Pro (12.9-inch)", "iPad Pro (12.9-inch) (3rd generation)", "iPad Pro (11-inch)","iPad Pro (10.5-inch)","iPad Pro (9.7-inch)"
+            ],
+            test_without_building: true,
+            derived_data_path:"~/Library/Developer/Xcode/DerivedData/Obsidian-dosxvrgfycqusuhgwmjseyrohbtg"
+        )
+    end
+
+    lane :generate_localization_shots do
+        capture_screenshots(
+            workspace: "Obsidian.xcworkspace",
+            scheme: "ObsidianUITestsLocalization",
+            devices: ["iPhone 8"],
+            output_directory: "./fastlane/localizationShots/"
+        )
+    end
+
+    lane :test_beta do
+        #ensure_git_status_clean
+        #increment_build_number(xcodeproj: "Obsidian.xcodeproj")
+
+        increment_build_number(
+            build_number: latest_testflight_build_number + 1,
+            xcodeproj: "Obsidian.xcodeproj"
+        )
+
+        #commit_version_bump(xcodeproj: "Obsidian.xcodeproj")
+        #add_git_tag
+        #push_to_git_remote
+
+        build_app(
+            scheme: "Obsidian",
+            workspace: "Obsidian.xcworkspace",
+            include_bitcode: true,
+            output_directory: "./fastlane/app"
+        )
+
+        upload_to_testflight
+    end
+
+    lane :deliver_shots do
+      deliver(
+        submit_for_review: false,
+        force: true, # Skip HTMl report verification
+        skip_metadata: true,
+        skip_screenshots: false,
+        skip_binary_upload: true
+      )
+    end
+end

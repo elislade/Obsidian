@@ -1,0 +1,10 @@
+/* 
+  InfoPlist.strings
+  Obsidian
+
+  Created by Eli Slade on 2018-06-02.
+  Copyright © 2018 Eli Slade. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "Obsidian";
+"NSHumanReadableCopyright" = "Copyright © 2019 Eli Slade. All rights reserved.";

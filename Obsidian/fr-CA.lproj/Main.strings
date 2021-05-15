@@ -1,0 +1,74 @@
+
+/* Class = "UILabel"; text = "Obsidian"; ObjectID = "2Rd-ao-CMc"; */
+"2Rd-ao-CMc.text" = "Obsidienne";
+
+/* Class = "UILabel"; text = "Fast. Secure. Beautiful. Questrade Client."; ObjectID = "6j9-Vc-rH5"; */
+"6j9-Vc-rH5.text" = "Vite. Garantir. Beau. Questrade Client.";
+
+/* Class = "UITabBarItem"; title = "Positions"; ObjectID = "AAr-xH-IZk"; */
+"AAr-xH-IZk.title" = "Positions";
+
+/* Class = "UILabel"; text = "BID"; ObjectID = "BbD-KD-aRa"; */
+"BbD-KD-aRa.text" = "BID";
+
+/* Class = "UINavigationItem"; title = "Search"; ObjectID = "E9g-6x-lA9"; */
+"E9g-6x-lA9.title" = "Recherche";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "GUf-FU-0sh"; */
+"GUf-FU-0sh.normalTitle" = "Se Connecter";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Hzh-Zo-7WP"; */
+"Hzh-Zo-7WP.text" = "Label";
+
+/* Class = "UITabBarItem"; title = "Orders"; ObjectID = "IZm-C0-TCY"; */
+"IZm-C0-TCY.title" = "Ordres";
+
+/* Class = "UISegmentedControl"; PbD-QP-BhO.segmentTitles[0] = "1D"; ObjectID = "PbD-QP-BhO"; */
+"PbD-QP-BhO.segmentTitles[0]" = "1D";
+
+/* Class = "UISegmentedControl"; PbD-QP-BhO.segmentTitles[1] = "1W"; ObjectID = "PbD-QP-BhO"; */
+"PbD-QP-BhO.segmentTitles[1]" = "1W";
+
+/* Class = "UISegmentedControl"; PbD-QP-BhO.segmentTitles[2] = "1M"; ObjectID = "PbD-QP-BhO"; */
+"PbD-QP-BhO.segmentTitles[2]" = "1M";
+
+/* Class = "UISegmentedControl"; PbD-QP-BhO.segmentTitles[3] = "3M"; ObjectID = "PbD-QP-BhO"; */
+"PbD-QP-BhO.segmentTitles[3]" = "3M";
+
+/* Class = "UISegmentedControl"; PbD-QP-BhO.segmentTitles[4] = "6M"; ObjectID = "PbD-QP-BhO"; */
+"PbD-QP-BhO.segmentTitles[4]" = "6M";
+
+/* Class = "UISegmentedControl"; PbD-QP-BhO.segmentTitles[5] = "1Y"; ObjectID = "PbD-QP-BhO"; */
+"PbD-QP-BhO.segmentTitles[5]" = "1Y";
+
+/* Class = "UILabel"; text = "SYMB"; ObjectID = "QbC-MQ-sAw"; */
+"QbC-MQ-sAw.text" = "SYMB";
+
+/* Class = "UILabel"; text = "ASK"; ObjectID = "S1e-7U-y4r"; */
+"S1e-7U-y4r.text" = "ASK";
+
+/* Class = "UINavigationItem"; title = "Symbol"; ObjectID = "TDT-L1-MSc"; */
+"TDT-L1-MSc.title" = "Symbol";
+
+/* Class = "UILabel"; text = "CAD"; ObjectID = "U7I-q0-XfC"; */
+"U7I-q0-XfC.text" = "CAD";
+
+/* Class = "UILabel"; text = "100.00"; ObjectID = "VZy-5Q-mWO"; */
+"VZy-5Q-mWO.text" = "100.00";
+
+/* Class = "UITabBarItem"; title = "Balances"; ObjectID = "XfC-bu-p7T"; */
+"XfC-bu-p7T.title" = "Soldes";
+
+/* Class = "UINavigationItem"; title = "Positions"; ObjectID = "aJm-RE-KJg"; */
+"aJm-RE-KJg.title" = "Positions";
+
+/* Class = "UINavigationItem"; title = "Orders"; ObjectID = "gcH-jY-FVl"; */
+"gcH-jY-FVl.title" = "Ordres";
+
+/* Class = "UITabBarItem"; title = "Search"; ObjectID = "sPC-oz-A83"; */
+"sPC-oz-A83.title" = "Recherche";
+
+/* Class = "UINavigationItem"; title = "Balances"; ObjectID = "vki-6j-419"; */
+"vki-6j-419.title" = "Soldes";
+
+"0qf-MX-A3K.text" = "By using Obsidian you agree to our privacy policy.";

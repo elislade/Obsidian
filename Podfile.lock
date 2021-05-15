@@ -1,0 +1,28 @@
+PODS:
+  - Locksmith (4.0.0)
+  - QuestAPI (0.5.0)
+
+DEPENDENCIES:
+  - Locksmith
+  - QuestAPI (from `https://github.com/elislade/questapi.git`)
+
+SPEC REPOS:
+  trunk:
+    - Locksmith
+
+EXTERNAL SOURCES:
+  QuestAPI:
+    :git: https://github.com/elislade/questapi.git
+
+CHECKOUT OPTIONS:
+  QuestAPI:
+    :commit: ea8e34b50cc728c47eeb4dad5c4423a04c21d932
+    :git: https://github.com/elislade/questapi.git
+
+SPEC CHECKSUMS:
+  Locksmith: e9bebbaaa4cee3c511bc358a44f843c3fe00e21f
+  QuestAPI: de98e0b06dd6f75484d0dd728854ebafe3ed27af
+
+PODFILE CHECKSUM: 8679fe0954824118928b6d2b06656b331054391a
+
+COCOAPODS: 1.10.1

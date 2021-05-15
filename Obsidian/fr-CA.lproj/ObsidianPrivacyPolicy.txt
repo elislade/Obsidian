@@ -1,0 +1,9 @@
+This document informs the policies regarding the collection, use and disclosure of Analytical Information we receive from users of the App. We use your Analytical Information only for providing and improving the App. By using the App you agree to the collection and use of information with accordance of this policy.
+
+Like many App developers, we collect information that your device sends whenever you use our App ("Log Data"). The Log Data may include information such as your device type, operating system version, screen size, views of our app that you visit, the date and duration of your visit, and other statistics. We do not collect any personally identifiable information, or any unique device identifiers.
+
+Our App accesses Questrade data through Questrade's API. We are completely reliant on Questrade and it's privacy policy.
+
+Please read their policy on privacy:
+
+https://www.questrade.com/disclosure/privacy-policy-and-security/2018/05/22/privacy-policy

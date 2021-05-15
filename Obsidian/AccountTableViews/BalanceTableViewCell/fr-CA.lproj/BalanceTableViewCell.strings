@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "CAD"; ObjectID = "04H-Lr-qw8"; */
+"04H-Lr-qw8.text" = "CAD";
+
+/* Class = "UILabel"; text = "Mrk. Value"; ObjectID = "Jgn-na-HGc"; */
+"Jgn-na-HGc.text" = "Mrk. Value";
+
+/* Class = "UILabel"; text = "Total Equity"; ObjectID = "M8y-0I-Bfy"; */
+"M8y-0I-Bfy.text" = "Total Equity";
+
+/* Class = "UILabel"; text = "Maint. Excess"; ObjectID = "bFc-4d-FOc"; */
+"bFc-4d-FOc.text" = "Maint. Excess";
+
+/* Class = "UILabel"; text = "Buying Power"; ObjectID = "en6-Ek-v8t"; */
+"en6-Ek-v8t.text" = "Buying Power";
+
+/* Class = "UISegmentedControl"; jud-bZ-3rd.segmentTitles[0] = "Combined"; ObjectID = "jud-bZ-3rd"; */
+"jud-bZ-3rd.segmentTitles[0]" = "Combined";
+
+/* Class = "UISegmentedControl"; jud-bZ-3rd.segmentTitles[1] = "Per Currency"; ObjectID = "jud-bZ-3rd"; */
+"jud-bZ-3rd.segmentTitles[1]" = "Per Currency";
+
+/* Class = "UILabel"; text = "Cash"; ObjectID = "leu-Zg-ind"; */
+"leu-Zg-ind.text" = "Cash";
+
+/* Class = "UILabel"; text = "USD"; ObjectID = "r9z-Hb-D2f"; */
+"r9z-Hb-D2f.text" = "USD";

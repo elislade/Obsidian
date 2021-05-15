@@ -1,0 +1,1091 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C0E98C52134B623004499C9 /* ModalTransitioningDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E98C42134B623004499C9 /* ModalTransitioningDelegate.swift */; };
+		1C0EC13D207C5F8F00CA7DBD /* OpenCloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0EC13C207C5F8F00CA7DBD /* OpenCloseView.swift */; };
+		1C1AB01C20869026009236FA /* ViewDataPersistable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1AB01B20869026009236FA /* ViewDataPersistable.swift */; };
+		1C1AB01E2086AE52009236FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1AB01D2086AE52009236FA /* ViewController.swift */; };
+		1C1B4D9620BF743200E0664F /* OrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C1B4D9520BF743200E0664F /* OrderTableViewCell.xib */; };
+		1C1E662820C8C35600D17D4D /* DarwingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1E662720C8C35600D17D4D /* DarwingEffect.swift */; };
+		1C20A711209AA6E00025D5A2 /* SymbolControllerPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C20A710209AA6E00025D5A2 /* SymbolControllerPresentable.swift */; };
+		1C21E185210BDD0C009D69B2 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C21E184210BDD0C009D69B2 /* AlertController.swift */; };
+		1C23EE2220EC345B00A79902 /* Treeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C23EE2120EC345B00A79902 /* Treeable.swift */; };
+		1C25904020D76AC70015DD92 /* TradingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C25903F20D76AC70015DD92 /* TradingViewController.swift */; };
+		1C25C2B6207BD2BE00E56FE2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C25C2B5207BD2BE00E56FE2 /* Theme.swift */; };
+		1C25C2B8207BD2EC00E56FE2 /* UIResponderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C25C2B7207BD2EC00E56FE2 /* UIResponderExtension.swift */; };
+		1C25C2BA207BD31800E56FE2 /* ThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C25C2B9207BD31800E56FE2 /* ThemeManager.swift */; };
+		1C28858920890CAE003599D7 /* ModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C28858820890CAE003599D7 /* ModalPresentationController.swift */; };
+		1C2984D32501548200AB4A12 /* NewPositionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2984D12501548200AB4A12 /* NewPositionTableViewCell.swift */; };
+		1C2984D42501548200AB4A12 /* NewPositionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C2984D22501548200AB4A12 /* NewPositionTableViewCell.xib */; };
+		1C2F10CD2076919600D0B917 /* TableViewHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2F10CB2076919600D0B917 /* TableViewHeaderCell.swift */; };
+		1C2F10CE2076919600D0B917 /* TableViewHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C2F10CC2076919600D0B917 /* TableViewHeaderCell.xib */; };
+		1C31AD3B1F7DAC0300145FD5 /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C31AD3A1F7DAC0300145FD5 /* FoundationExtensions.swift */; };
+		1C35F2C920E6B232002136B0 /* Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35F2C820E6B232002136B0 /* Label.swift */; };
+		1C35F2CB20E6B652002136B0 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C35F2CA20E6B652002136B0 /* UIKitExtensions.swift */; };
+		1C3AF5FE20B893D1006B667E /* ObsidianUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C3AF5FD20B893D1006B667E /* ObsidianUITests.swift */; };
+		1C3C409820BF8E930089C1DD /* BalanceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C3C409A20BF8E930089C1DD /* BalanceTableViewCell.xib */; };
+		1C3C409C20C07C360089C1DD /* OpenCloseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C3C409E20C07C360089C1DD /* OpenCloseView.xib */; };
+		1C3C40A020C07F140089C1DD /* PositionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C3C40A220C07F140089C1DD /* PositionTableViewCell.xib */; };
+		1C4E4178207013BF002A6F67 /* SearchResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4E4177207013BF002A6F67 /* SearchResultsTableViewController.swift */; };
+		1C4E417C20717E95002A6F67 /* TableViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C4E417B20717E95002A6F67 /* TableViewHeader.swift */; };
+		1C5442E820742C5900DE2980 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5442E720742C5900DE2980 /* OrderTableViewCell.swift */; };
+		1C5442EA20742EA800DE2980 /* BalanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5442E920742EA800DE2980 /* BalanceTableViewCell.swift */; };
+		1C5442EC20742FC800DE2980 /* SearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5442EB20742FC800DE2980 /* SearchResultTableViewCell.swift */; };
+		1C5442EF207537E900DE2980 /* AccountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5442EE207537E900DE2980 /* AccountTableViewController.swift */; };
+		1C561CA820FD20630003AEC4 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C561CA720FD20630003AEC4 /* User.swift */; };
+		1C5635DD20E9954200F97A94 /* SymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5635DC20E9954200F97A94 /* SymbolView.swift */; };
+		1C5635E020E9956000F97A94 /* SymbolView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C5635DF20E9956000F97A94 /* SymbolView.xib */; };
+		1C57044420DA0117005D54E0 /* OptionSelectTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C57044320DA0117005D54E0 /* OptionSelectTableViewController.swift */; };
+		1C584EBE1F59DEE300550605 /* BalancesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C584EBD1F59DEE300550605 /* BalancesViewController.swift */; };
+		1C584EC01F59E57A00550605 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C584EBF1F59E57A00550605 /* SearchViewController.swift */; };
+		1C693FE220B740A600E3D7A3 /* GraphGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C693FE120B740A600E3D7A3 /* GraphGestureRecognizer.swift */; };
+		1C693FE420B7432E00E3D7A3 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C693FE320B7432E00E3D7A3 /* GraphViewController.swift */; };
+		1C81CC381F577C1E004B9CD6 /* PositionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81CC371F577C1E004B9CD6 /* PositionsViewController.swift */; };
+		1C81CC3A1F58CF32004B9CD6 /* SymbolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C81CC391F58CF32004B9CD6 /* SymbolViewController.swift */; };
+		1C86D0B722FA8B5900423808 /* NumberAbbreviation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86D0B622FA8B5900423808 /* NumberAbbreviation.swift */; };
+		1C86D45E20F99132004CD073 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C86D45D20F99132004CD073 /* TextViewController.swift */; };
+		1C8BE7972094C29D00C6A558 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8BE7962094C29C00C6A558 /* GraphView.swift */; };
+		1C931C4A251160B100064CB8 /* AdaptiveArrayPresentableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C931C49251160B100064CB8 /* AdaptiveArrayPresentableController.swift */; };
+		1C931C4D251163B700064CB8 /* ScrollTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C931C4B251163B700064CB8 /* ScrollTabBarController.swift */; };
+		1C931C5125118EAC00064CB8 /* AppTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C931C5025118EAC00064CB8 /* AppTabBarController.swift */; };
+		1C931C552511B12D00064CB8 /* ScrollTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C931C532511B12D00064CB8 /* ScrollTabView.swift */; };
+		1C931C562511B12D00064CB8 /* ScrollTabView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C931C542511B12D00064CB8 /* ScrollTabView.xib */; };
+		1C939F6F1F845E31001AC400 /* OrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C939F6E1F845E31001AC400 /* OrdersViewController.swift */; };
+		1CA1C99D20C33ABD000F5234 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CA1C99B20C33ABD000F5234 /* InfoPlist.strings */; };
+		1CA1C9A120C33BA6000F5234 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1CA1C99F20C33BA6000F5234 /* Localizable.strings */; };
+		1CAEFB2E2103A37000654279 /* UserAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEFB2D2103A37000654279 /* UserAgent.swift */; };
+		1CB0AD8520B8CC8A00AB6F69 /* SnapshotHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB0AD8420B8CC8900AB6F69 /* SnapshotHelper.swift */; };
+		1CB53F4C206C61400070919F /* UITheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CB53F4B206C61400070919F /* UITheme.swift */; };
+		1CBC131A208FB563004751F3 /* SecurityView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CBC1319208FB563004751F3 /* SecurityView.xib */; };
+		1CBC131C208FB8BF004751F3 /* SecurityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CBC131B208FB8BF004751F3 /* SecurityView.swift */; };
+		1CBFC304210F79C30014137D /* ObsidianPrivacyPolicy.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1CBFC306210F79C30014137D /* ObsidianPrivacyPolicy.txt */; };
+		1CC529862566073700A5C322 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC529852566073700A5C322 /* NotificationManager.swift */; };
+		1CC5299F2566869D00A5C322 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CC5299E2566869D00A5C322 /* API.swift */; };
+		1CCD091C22F9DB52009DD179 /* NotificationAuthable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCD091B22F9DB52009DD179 /* NotificationAuthable.swift */; };
+		1CD5B789208E51450091378A /* LocalAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CD5B788208E51450091378A /* LocalAuth.swift */; };
+		1CDA04091F8096B0001F2C4F /* PositionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDA04081F8096B0001F2C4F /* PositionTableViewCell.swift */; };
+		1CDB00C720D818CE009E2644 /* TradingOptionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB00C620D818CE009E2644 /* TradingOptionsTableViewController.swift */; };
+		1CDB00C920D959DA009E2644 /* ResponderPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CDB00C820D959DA009E2644 /* ResponderPickerView.swift */; };
+		1CEAA1631F460B47004EEA78 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CEAA1621F460B47004EEA78 /* AppDelegate.swift */; };
+		1CEAA1681F460B47004EEA78 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CEAA1661F460B47004EEA78 /* Main.storyboard */; };
+		1CEAA16A1F460B47004EEA78 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CEAA1691F460B47004EEA78 /* Assets.xcassets */; };
+		1CEAA16D1F460B47004EEA78 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CEAA16B1F460B47004EEA78 /* LaunchScreen.storyboard */; };
+		1CEF6F5B207936F300A0D711 /* SearchResultTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CEF6F5A207936F300A0D711 /* SearchResultTableViewCell.xib */; };
+		1CF1BA8020B4B6A70000B169 /* TimeIntervalExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF1BA7F20B4B6A70000B169 /* TimeIntervalExtension.swift */; };
+		1CF24075234FD79700B4353F /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF24074234FD79700B4353F /* RootViewController.swift */; };
+		1CF5B5C520F186C700A0EE51 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF5B5C420F186C700A0EE51 /* Animation.swift */; };
+		1CFB84591F46374E00076D5E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFB84581F46374E00076D5E /* LoginViewController.swift */; };
+		1CFDF895208657C000AAB6CD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CFDF894208657C000AAB6CD /* TableViewCell.swift */; };
+		52D4A66035E5086873BAFAA5 /* Pods_Obsidian.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0F84CF8CF0902324D6A492D /* Pods_Obsidian.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C3AF60020B893D1006B667E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CEAA1571F460B47004EEA78 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CEAA15E1F460B47004EEA78;
+			remoteInfo = Obsidian;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1C1B292D20F92CF200DAD434 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CB53F4A206C3E6C0070919F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1C0E98C42134B623004499C9 /* ModalTransitioningDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalTransitioningDelegate.swift; sourceTree = "<group>"; };
+		1C0EC13C207C5F8F00CA7DBD /* OpenCloseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenCloseView.swift; sourceTree = "<group>"; };
+		1C199F15210FECA30019F1FB /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Main.strings"; sourceTree = "<group>"; };
+		1C1AB01B20869026009236FA /* ViewDataPersistable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewDataPersistable.swift; sourceTree = "<group>"; };
+		1C1AB01D2086AE52009236FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C1B4D9520BF743200E0664F /* OrderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrderTableViewCell.xib; sourceTree = "<group>"; };
+		1C1E662720C8C35600D17D4D /* DarwingEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarwingEffect.swift; sourceTree = "<group>"; };
+		1C20A710209AA6E00025D5A2 /* SymbolControllerPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolControllerPresentable.swift; sourceTree = "<group>"; };
+		1C21E184210BDD0C009D69B2 /* AlertController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		1C23EE2120EC345B00A79902 /* Treeable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Treeable.swift; sourceTree = "<group>"; };
+		1C25903F20D76AC70015DD92 /* TradingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingViewController.swift; sourceTree = "<group>"; };
+		1C25C2B5207BD2BE00E56FE2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		1C25C2B7207BD2EC00E56FE2 /* UIResponderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIResponderExtension.swift; sourceTree = "<group>"; };
+		1C25C2B9207BD31800E56FE2 /* ThemeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeManager.swift; sourceTree = "<group>"; };
+		1C28858820890CAE003599D7 /* ModalPresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPresentationController.swift; sourceTree = "<group>"; };
+		1C2984D12501548200AB4A12 /* NewPositionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPositionTableViewCell.swift; sourceTree = "<group>"; };
+		1C2984D22501548200AB4A12 /* NewPositionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewPositionTableViewCell.xib; sourceTree = "<group>"; };
+		1C2F10CB2076919600D0B917 /* TableViewHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHeaderCell.swift; sourceTree = "<group>"; };
+		1C2F10CC2076919600D0B917 /* TableViewHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewHeaderCell.xib; sourceTree = "<group>"; };
+		1C31AD3A1F7DAC0300145FD5 /* FoundationExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoundationExtensions.swift; sourceTree = "<group>"; };
+		1C35F2C820E6B232002136B0 /* Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Label.swift; sourceTree = "<group>"; };
+		1C35F2CA20E6B652002136B0 /* UIKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		1C3A620E211244FC00242C18 /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/BalanceTableViewCell.strings"; sourceTree = "<group>"; };
+		1C3AF5FB20B893D1006B667E /* ObsidianUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObsidianUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C3AF5FD20B893D1006B667E /* ObsidianUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObsidianUITests.swift; sourceTree = "<group>"; };
+		1C3AF5FF20B893D1006B667E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C3C409B20BF8F400089C1DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BalanceTableViewCell.xib; sourceTree = "<group>"; };
+		1C3C409F20C07EE90089C1DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/OpenCloseView.xib; sourceTree = "<group>"; };
+		1C3C40A120C07F140089C1DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/PositionTableViewCell.xib; sourceTree = "<group>"; };
+		1C4E4177207013BF002A6F67 /* SearchResultsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsTableViewController.swift; sourceTree = "<group>"; };
+		1C4E417B20717E95002A6F67 /* TableViewHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewHeader.swift; sourceTree = "<group>"; };
+		1C5442E720742C5900DE2980 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		1C5442E920742EA800DE2980 /* BalanceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceTableViewCell.swift; sourceTree = "<group>"; };
+		1C5442EB20742FC800DE2980 /* SearchResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewCell.swift; sourceTree = "<group>"; };
+		1C5442EE207537E900DE2980 /* AccountTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewController.swift; sourceTree = "<group>"; };
+		1C561CA720FD20630003AEC4 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1C5635DC20E9954200F97A94 /* SymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolView.swift; sourceTree = "<group>"; };
+		1C5635DF20E9956000F97A94 /* SymbolView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SymbolView.xib; sourceTree = "<group>"; };
+		1C57044320DA0117005D54E0 /* OptionSelectTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionSelectTableViewController.swift; sourceTree = "<group>"; };
+		1C584EBD1F59DEE300550605 /* BalancesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalancesViewController.swift; sourceTree = "<group>"; };
+		1C584EBF1F59E57A00550605 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		1C693FE120B740A600E3D7A3 /* GraphGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphGestureRecognizer.swift; sourceTree = "<group>"; };
+		1C693FE320B7432E00E3D7A3 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		1C81CC371F577C1E004B9CD6 /* PositionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionsViewController.swift; sourceTree = "<group>"; };
+		1C81CC391F58CF32004B9CD6 /* SymbolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolViewController.swift; sourceTree = "<group>"; };
+		1C86D0B622FA8B5900423808 /* NumberAbbreviation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberAbbreviation.swift; sourceTree = "<group>"; };
+		1C86D45D20F99132004CD073 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		1C8BE7962094C29C00C6A558 /* GraphView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		1C931C49251160B100064CB8 /* AdaptiveArrayPresentableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdaptiveArrayPresentableController.swift; sourceTree = "<group>"; };
+		1C931C4B251163B700064CB8 /* ScrollTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTabBarController.swift; sourceTree = "<group>"; };
+		1C931C5025118EAC00064CB8 /* AppTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabBarController.swift; sourceTree = "<group>"; };
+		1C931C532511B12D00064CB8 /* ScrollTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollTabView.swift; sourceTree = "<group>"; };
+		1C931C542511B12D00064CB8 /* ScrollTabView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollTabView.xib; sourceTree = "<group>"; };
+		1C939F6E1F845E31001AC400 /* OrdersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrdersViewController.swift; sourceTree = "<group>"; };
+		1CA1C99C20C33ABD000F5234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1CA1C99E20C33AD0000F5234 /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		1CA1C9A020C33BA6000F5234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1CA1C9A220C33EF3000F5234 /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		1CAB046C20C221DE00E3DCA6 /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/PositionTableViewCell.strings"; sourceTree = "<group>"; };
+		1CAB046D20C221DE00E3DCA6 /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/OpenCloseView.strings"; sourceTree = "<group>"; };
+		1CAB047020C221DE00E3DCA6 /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "fr-CA"; path = "fr-CA.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		1CADB1911F46570000243D4A /* Obsidian.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Obsidian.entitlements; sourceTree = "<group>"; };
+		1CAEFB2D2103A37000654279 /* UserAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgent.swift; sourceTree = "<group>"; };
+		1CB0AD8420B8CC8900AB6F69 /* SnapshotHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SnapshotHelper.swift; path = fastlane/SnapshotHelper.swift; sourceTree = SOURCE_ROOT; };
+		1CB53F4B206C61400070919F /* UITheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITheme.swift; sourceTree = "<group>"; };
+		1CBC1319208FB563004751F3 /* SecurityView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecurityView.xib; sourceTree = "<group>"; };
+		1CBC131B208FB8BF004751F3 /* SecurityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityView.swift; sourceTree = "<group>"; };
+		1CBFC305210F79C30014137D /* Base */ = {isa = PBXFileReference; lastKnownFileType = text; name = Base; path = Base.lproj/ObsidianPrivacyPolicy.txt; sourceTree = "<group>"; };
+		1CBFC307210F79CA0014137D /* fr-CA */ = {isa = PBXFileReference; lastKnownFileType = text; name = "fr-CA"; path = "fr-CA.lproj/ObsidianPrivacyPolicy.txt"; sourceTree = "<group>"; };
+		1CC529852566073700A5C322 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		1CC5299E2566869D00A5C322 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		1CCD091B22F9DB52009DD179 /* NotificationAuthable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationAuthable.swift; sourceTree = "<group>"; };
+		1CD5B788208E51450091378A /* LocalAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalAuth.swift; sourceTree = "<group>"; };
+		1CDA04081F8096B0001F2C4F /* PositionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionTableViewCell.swift; sourceTree = "<group>"; };
+		1CDB00C620D818CE009E2644 /* TradingOptionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradingOptionsTableViewController.swift; sourceTree = "<group>"; };
+		1CDB00C820D959DA009E2644 /* ResponderPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponderPickerView.swift; sourceTree = "<group>"; };
+		1CEAA15F1F460B47004EEA78 /* Obsidian.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Obsidian.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CEAA1621F460B47004EEA78 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1CEAA1671F460B47004EEA78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CEAA1691F460B47004EEA78 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1CEAA16C1F460B47004EEA78 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1CEAA16E1F460B47004EEA78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CEF6F5A207936F300A0D711 /* SearchResultTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchResultTableViewCell.xib; sourceTree = "<group>"; };
+		1CF1BA7F20B4B6A70000B169 /* TimeIntervalExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeIntervalExtension.swift; sourceTree = "<group>"; };
+		1CF24074234FD79700B4353F /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		1CF5B5C420F186C700A0EE51 /* Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		1CFB84581F46374E00076D5E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1CFDF894208657C000AAB6CD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		97B5CEAD6926F85F86DC5887 /* Pods-Obsidian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Obsidian.debug.xcconfig"; path = "Target Support Files/Pods-Obsidian/Pods-Obsidian.debug.xcconfig"; sourceTree = "<group>"; };
+		CD82BD4D3501E59E14414D5A /* Pods-Obsidian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Obsidian.release.xcconfig"; path = "Target Support Files/Pods-Obsidian/Pods-Obsidian.release.xcconfig"; sourceTree = "<group>"; };
+		D0F84CF8CF0902324D6A492D /* Pods_Obsidian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Obsidian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C3AF5F820B893D1006B667E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CEAA15C1F460B47004EEA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D4A66035E5086873BAFAA5 /* Pods_Obsidian.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C21E186210BEDB9009D69B2 /* AccountTableViews */ = {
+			isa = PBXGroup;
+			children = (
+				1C5442EE207537E900DE2980 /* AccountTableViewController.swift */,
+				1C4E417D20717E9D002A6F67 /* TableViewHeader */,
+				1C81CC371F577C1E004B9CD6 /* PositionsViewController.swift */,
+				1C5442F420756B9900DE2980 /* PositionTableViewCell */,
+				1C584EBD1F59DEE300550605 /* BalancesViewController.swift */,
+				1C5442F520756DED00DE2980 /* BalanceTableViewCell */,
+				1C939F6E1F845E31001AC400 /* OrdersViewController.swift */,
+				1C5442F620756E0200DE2980 /* OrderTableViewCell */,
+			);
+			path = AccountTableViews;
+			sourceTree = "<group>";
+		};
+		1C21E187210BEE9B009D69B2 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				1CEF6F59207936C800A0D711 /* SearchResultTableViewCell */,
+				1C584EBF1F59E57A00550605 /* SearchViewController.swift */,
+				1C4E4177207013BF002A6F67 /* SearchResultsTableViewController.swift */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		1C21E188210BEEB7009D69B2 /* Symbol+Trading */ = {
+			isa = PBXGroup;
+			children = (
+				1C693FE520B7433600E3D7A3 /* Graph */,
+				1CDB00C620D818CE009E2644 /* TradingOptionsTableViewController.swift */,
+				1C81CC391F58CF32004B9CD6 /* SymbolViewController.swift */,
+				1C5635DE20E9954C00F97A94 /* SymbolView */,
+				1C25903F20D76AC70015DD92 /* TradingViewController.swift */,
+				1CDB00C820D959DA009E2644 /* ResponderPickerView.swift */,
+				1C57044320DA0117005D54E0 /* OptionSelectTableViewController.swift */,
+			);
+			path = "Symbol+Trading";
+			sourceTree = "<group>";
+		};
+		1C21E189210BEEDF009D69B2 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1C23EE2120EC345B00A79902 /* Treeable.swift */,
+				1C86D0B622FA8B5900423808 /* NumberAbbreviation.swift */,
+				1C20A710209AA6E00025D5A2 /* SymbolControllerPresentable.swift */,
+				1CCD091B22F9DB52009DD179 /* NotificationAuthable.swift */,
+				1C1AB01B20869026009236FA /* ViewDataPersistable.swift */,
+				1C1E662720C8C35600D17D4D /* DarwingEffect.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		1C21E18A210BEF07009D69B2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1C561CA720FD20630003AEC4 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1C21E18B210BEF4F009D69B2 /* BaseSubclass */ = {
+			isa = PBXGroup;
+			children = (
+				1C35F2C820E6B232002136B0 /* Label.swift */,
+				1C21E184210BDD0C009D69B2 /* AlertController.swift */,
+				1C1AB01D2086AE52009236FA /* ViewController.swift */,
+				1CFDF894208657C000AAB6CD /* TableViewCell.swift */,
+			);
+			path = BaseSubclass;
+			sourceTree = "<group>";
+		};
+		1C21E18F210BF170009D69B2 /* Misc. */ = {
+			isa = PBXGroup;
+			children = (
+				1CADB1911F46570000243D4A /* Obsidian.entitlements */,
+				1CEAA1691F460B47004EEA78 /* Assets.xcassets */,
+				1CBFC306210F79C30014137D /* ObsidianPrivacyPolicy.txt */,
+				1CEAA1661F460B47004EEA78 /* Main.storyboard */,
+				1CEAA16B1F460B47004EEA78 /* LaunchScreen.storyboard */,
+				1CEAA16E1F460B47004EEA78 /* Info.plist */,
+				1CA1C99F20C33BA6000F5234 /* Localizable.strings */,
+				1CA1C99B20C33ABD000F5234 /* InfoPlist.strings */,
+			);
+			name = Misc.;
+			sourceTree = "<group>";
+		};
+		1C25C2B4207BD28D00E56FE2 /* Theming */ = {
+			isa = PBXGroup;
+			children = (
+				1C25C2B5207BD2BE00E56FE2 /* Theme.swift */,
+				1C25C2B9207BD31800E56FE2 /* ThemeManager.swift */,
+				1CB53F4B206C61400070919F /* UITheme.swift */,
+				1C25C2B7207BD2EC00E56FE2 /* UIResponderExtension.swift */,
+				1CF5B5C420F186C700A0EE51 /* Animation.swift */,
+			);
+			path = Theming;
+			sourceTree = "<group>";
+		};
+		1C3AF5FC20B893D1006B667E /* ObsidianUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1CB0AD8420B8CC8900AB6F69 /* SnapshotHelper.swift */,
+				1C3AF5FD20B893D1006B667E /* ObsidianUITests.swift */,
+				1C3AF5FF20B893D1006B667E /* Info.plist */,
+			);
+			path = ObsidianUITests;
+			sourceTree = "<group>";
+		};
+		1C4E417D20717E9D002A6F67 /* TableViewHeader */ = {
+			isa = PBXGroup;
+			children = (
+				1C2F10CC2076919600D0B917 /* TableViewHeaderCell.xib */,
+				1C2F10CB2076919600D0B917 /* TableViewHeaderCell.swift */,
+				1C4E417B20717E95002A6F67 /* TableViewHeader.swift */,
+			);
+			path = TableViewHeader;
+			sourceTree = "<group>";
+		};
+		1C5442F420756B9900DE2980 /* PositionTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1C2984D22501548200AB4A12 /* NewPositionTableViewCell.xib */,
+				1C2984D12501548200AB4A12 /* NewPositionTableViewCell.swift */,
+				1C3C40A220C07F140089C1DD /* PositionTableViewCell.xib */,
+				1CDA04081F8096B0001F2C4F /* PositionTableViewCell.swift */,
+				1C3C409E20C07C360089C1DD /* OpenCloseView.xib */,
+				1C0EC13C207C5F8F00CA7DBD /* OpenCloseView.swift */,
+			);
+			path = PositionTableViewCell;
+			sourceTree = "<group>";
+		};
+		1C5442F520756DED00DE2980 /* BalanceTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1C3C409A20BF8E930089C1DD /* BalanceTableViewCell.xib */,
+				1C5442E920742EA800DE2980 /* BalanceTableViewCell.swift */,
+			);
+			path = BalanceTableViewCell;
+			sourceTree = "<group>";
+		};
+		1C5442F620756E0200DE2980 /* OrderTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1C1B4D9520BF743200E0664F /* OrderTableViewCell.xib */,
+				1C5442E720742C5900DE2980 /* OrderTableViewCell.swift */,
+			);
+			path = OrderTableViewCell;
+			sourceTree = "<group>";
+		};
+		1C5635DE20E9954C00F97A94 /* SymbolView */ = {
+			isa = PBXGroup;
+			children = (
+				1C5635DC20E9954200F97A94 /* SymbolView.swift */,
+				1C5635DF20E9956000F97A94 /* SymbolView.xib */,
+			);
+			path = SymbolView;
+			sourceTree = "<group>";
+		};
+		1C693FE520B7433600E3D7A3 /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				1C693FE120B740A600E3D7A3 /* GraphGestureRecognizer.swift */,
+				1C8BE7962094C29C00C6A558 /* GraphView.swift */,
+				1C693FE320B7432E00E3D7A3 /* GraphViewController.swift */,
+				1CF1BA7F20B4B6A70000B169 /* TimeIntervalExtension.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		1C931C5225119E9300064CB8 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				1C931C5025118EAC00064CB8 /* AppTabBarController.swift */,
+				1C931C49251160B100064CB8 /* AdaptiveArrayPresentableController.swift */,
+				1C931C4B251163B700064CB8 /* ScrollTabBarController.swift */,
+				1C931C532511B12D00064CB8 /* ScrollTabView.swift */,
+				1C931C542511B12D00064CB8 /* ScrollTabView.xib */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		1CBC131D208FB8C4004751F3 /* SecurityView */ = {
+			isa = PBXGroup;
+			children = (
+				1CBC1319208FB563004751F3 /* SecurityView.xib */,
+				1CBC131B208FB8BF004751F3 /* SecurityView.swift */,
+			);
+			path = SecurityView;
+			sourceTree = "<group>";
+		};
+		1CEAA1561F460B47004EEA78 = {
+			isa = PBXGroup;
+			children = (
+				1CEAA1611F460B47004EEA78 /* Obsidian */,
+				1C3AF5FC20B893D1006B667E /* ObsidianUITests */,
+				1CEAA1601F460B47004EEA78 /* Products */,
+				D7E391C21FBE241939929BD6 /* Pods */,
+				E4EA9EB30AFBE32D53A02186 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1CEAA1601F460B47004EEA78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CEAA15F1F460B47004EEA78 /* Obsidian.app */,
+				1C3AF5FB20B893D1006B667E /* ObsidianUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CEAA1611F460B47004EEA78 /* Obsidian */ = {
+			isa = PBXGroup;
+			children = (
+				1C31AD3A1F7DAC0300145FD5 /* FoundationExtensions.swift */,
+				1C35F2CA20E6B652002136B0 /* UIKitExtensions.swift */,
+				1C21E189210BEEDF009D69B2 /* Protocols */,
+				1CAEFB2D2103A37000654279 /* UserAgent.swift */,
+				1C21E18A210BEF07009D69B2 /* Models */,
+				1C25C2B4207BD28D00E56FE2 /* Theming */,
+				1CEAA1621F460B47004EEA78 /* AppDelegate.swift */,
+				1CC5299E2566869D00A5C322 /* API.swift */,
+				1CC529852566073700A5C322 /* NotificationManager.swift */,
+				1C28858820890CAE003599D7 /* ModalPresentationController.swift */,
+				1C0E98C42134B623004499C9 /* ModalTransitioningDelegate.swift */,
+				1CBC131D208FB8C4004751F3 /* SecurityView */,
+				1C931C5225119E9300064CB8 /* TabBar */,
+				1C21E18B210BEF4F009D69B2 /* BaseSubclass */,
+				1CD5B788208E51450091378A /* LocalAuth.swift */,
+				1CF24074234FD79700B4353F /* RootViewController.swift */,
+				1CFB84581F46374E00076D5E /* LoginViewController.swift */,
+				1C86D45D20F99132004CD073 /* TextViewController.swift */,
+				1C21E186210BEDB9009D69B2 /* AccountTableViews */,
+				1C21E187210BEE9B009D69B2 /* Search */,
+				1C21E188210BEEB7009D69B2 /* Symbol+Trading */,
+				1C21E18F210BF170009D69B2 /* Misc. */,
+			);
+			path = Obsidian;
+			sourceTree = "<group>";
+		};
+		1CEF6F59207936C800A0D711 /* SearchResultTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				1CEF6F5A207936F300A0D711 /* SearchResultTableViewCell.xib */,
+				1C5442EB20742FC800DE2980 /* SearchResultTableViewCell.swift */,
+			);
+			path = SearchResultTableViewCell;
+			sourceTree = "<group>";
+		};
+		D7E391C21FBE241939929BD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97B5CEAD6926F85F86DC5887 /* Pods-Obsidian.debug.xcconfig */,
+				CD82BD4D3501E59E14414D5A /* Pods-Obsidian.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4EA9EB30AFBE32D53A02186 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D0F84CF8CF0902324D6A492D /* Pods_Obsidian.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C3AF5FA20B893D1006B667E /* ObsidianUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C3AF60220B893D1006B667E /* Build configuration list for PBXNativeTarget "ObsidianUITests" */;
+			buildPhases = (
+				1C3AF5F720B893D1006B667E /* Sources */,
+				1C3AF5F820B893D1006B667E /* Frameworks */,
+				1C3AF5F920B893D1006B667E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C3AF60120B893D1006B667E /* PBXTargetDependency */,
+			);
+			name = ObsidianUITests;
+			productName = ObsidianUITests;
+			productReference = 1C3AF5FB20B893D1006B667E /* ObsidianUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1CEAA15E1F460B47004EEA78 /* Obsidian */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CEAA1711F460B47004EEA78 /* Build configuration list for PBXNativeTarget "Obsidian" */;
+			buildPhases = (
+				8B1211D98E10AD4D1EF4AF16 /* [CP] Check Pods Manifest.lock */,
+				1CEAA15B1F460B47004EEA78 /* Sources */,
+				1CEAA15C1F460B47004EEA78 /* Frameworks */,
+				1CEAA15D1F460B47004EEA78 /* Resources */,
+				1CB53F4A206C3E6C0070919F /* Embed Frameworks */,
+				1C20A70F20992ACC0025D5A2 /* ShellScript */,
+				1C1B292D20F92CF200DAD434 /* Embed App Extensions */,
+				0CEA7973E6829A42EE509F41 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Obsidian;
+			productName = "Questrade Client";
+			productReference = 1CEAA15F1F460B47004EEA78 /* Obsidian.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CEAA1571F460B47004EEA78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = "Eli Slade";
+				TargetAttributes = {
+					1C3AF5FA20B893D1006B667E = {
+						CreatedOnToolsVersion = 9.3.1;
+						LastSwiftMigration = 1030;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1CEAA15E1F460B47004EEA78;
+					};
+					1CEAA15E1F460B47004EEA78 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 1010;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 1CEAA15A1F460B47004EEA78 /* Build configuration list for PBXProject "Obsidian" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"fr-CA",
+			);
+			mainGroup = 1CEAA1561F460B47004EEA78;
+			productRefGroup = 1CEAA1601F460B47004EEA78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CEAA15E1F460B47004EEA78 /* Obsidian */,
+				1C3AF5FA20B893D1006B667E /* ObsidianUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C3AF5F920B893D1006B667E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CEAA15D1F460B47004EEA78 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA1C99D20C33ABD000F5234 /* InfoPlist.strings in Resources */,
+				1CEF6F5B207936F300A0D711 /* SearchResultTableViewCell.xib in Resources */,
+				1C5635E020E9956000F97A94 /* SymbolView.xib in Resources */,
+				1CBC131A208FB563004751F3 /* SecurityView.xib in Resources */,
+				1C931C562511B12D00064CB8 /* ScrollTabView.xib in Resources */,
+				1C3C40A020C07F140089C1DD /* PositionTableViewCell.xib in Resources */,
+				1CEAA16D1F460B47004EEA78 /* LaunchScreen.storyboard in Resources */,
+				1CEAA16A1F460B47004EEA78 /* Assets.xcassets in Resources */,
+				1C1B4D9620BF743200E0664F /* OrderTableViewCell.xib in Resources */,
+				1CA1C9A120C33BA6000F5234 /* Localizable.strings in Resources */,
+				1CBFC304210F79C30014137D /* ObsidianPrivacyPolicy.txt in Resources */,
+				1C2F10CE2076919600D0B917 /* TableViewHeaderCell.xib in Resources */,
+				1C3C409820BF8E930089C1DD /* BalanceTableViewCell.xib in Resources */,
+				1CEAA1681F460B47004EEA78 /* Main.storyboard in Resources */,
+				1C3C409C20C07C360089C1DD /* OpenCloseView.xib in Resources */,
+				1C2984D42501548200AB4A12 /* NewPositionTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0CEA7973E6829A42EE509F41 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Obsidian/Pods-Obsidian-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Locksmith/Locksmith.framework",
+				"${BUILT_PRODUCTS_DIR}/QuestAPI/QuestAPI.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Locksmith.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/QuestAPI.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Obsidian/Pods-Obsidian-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C20A70F20992ACC0025D5A2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+		8B1211D98E10AD4D1EF4AF16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Obsidian-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C3AF5F720B893D1006B667E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C3AF5FE20B893D1006B667E /* ObsidianUITests.swift in Sources */,
+				1CB0AD8520B8CC8A00AB6F69 /* SnapshotHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CEAA15B1F460B47004EEA78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C693FE220B740A600E3D7A3 /* GraphGestureRecognizer.swift in Sources */,
+				1C1AB01E2086AE52009236FA /* ViewController.swift in Sources */,
+				1CCD091C22F9DB52009DD179 /* NotificationAuthable.swift in Sources */,
+				1C5442EF207537E900DE2980 /* AccountTableViewController.swift in Sources */,
+				1C1AB01C20869026009236FA /* ViewDataPersistable.swift in Sources */,
+				1C931C4D251163B700064CB8 /* ScrollTabBarController.swift in Sources */,
+				1C584EC01F59E57A00550605 /* SearchViewController.swift in Sources */,
+				1CFB84591F46374E00076D5E /* LoginViewController.swift in Sources */,
+				1C4E4178207013BF002A6F67 /* SearchResultsTableViewController.swift in Sources */,
+				1CD5B789208E51450091378A /* LocalAuth.swift in Sources */,
+				1C86D45E20F99132004CD073 /* TextViewController.swift in Sources */,
+				1CFDF895208657C000AAB6CD /* TableViewCell.swift in Sources */,
+				1C939F6F1F845E31001AC400 /* OrdersViewController.swift in Sources */,
+				1C57044420DA0117005D54E0 /* OptionSelectTableViewController.swift in Sources */,
+				1CC5299F2566869D00A5C322 /* API.swift in Sources */,
+				1C693FE420B7432E00E3D7A3 /* GraphViewController.swift in Sources */,
+				1CC529862566073700A5C322 /* NotificationManager.swift in Sources */,
+				1C35F2C920E6B232002136B0 /* Label.swift in Sources */,
+				1CDB00C720D818CE009E2644 /* TradingOptionsTableViewController.swift in Sources */,
+				1CBC131C208FB8BF004751F3 /* SecurityView.swift in Sources */,
+				1C1E662820C8C35600D17D4D /* DarwingEffect.swift in Sources */,
+				1C5442EA20742EA800DE2980 /* BalanceTableViewCell.swift in Sources */,
+				1C5442E820742C5900DE2980 /* OrderTableViewCell.swift in Sources */,
+				1C584EBE1F59DEE300550605 /* BalancesViewController.swift in Sources */,
+				1C931C552511B12D00064CB8 /* ScrollTabView.swift in Sources */,
+				1C5635DD20E9954200F97A94 /* SymbolView.swift in Sources */,
+				1C28858920890CAE003599D7 /* ModalPresentationController.swift in Sources */,
+				1C25C2BA207BD31800E56FE2 /* ThemeManager.swift in Sources */,
+				1C0E98C52134B623004499C9 /* ModalTransitioningDelegate.swift in Sources */,
+				1C5442EC20742FC800DE2980 /* SearchResultTableViewCell.swift in Sources */,
+				1C561CA820FD20630003AEC4 /* User.swift in Sources */,
+				1C31AD3B1F7DAC0300145FD5 /* FoundationExtensions.swift in Sources */,
+				1C0EC13D207C5F8F00CA7DBD /* OpenCloseView.swift in Sources */,
+				1CF24075234FD79700B4353F /* RootViewController.swift in Sources */,
+				1C20A711209AA6E00025D5A2 /* SymbolControllerPresentable.swift in Sources */,
+				1C4E417C20717E95002A6F67 /* TableViewHeader.swift in Sources */,
+				1CEAA1631F460B47004EEA78 /* AppDelegate.swift in Sources */,
+				1C25C2B6207BD2BE00E56FE2 /* Theme.swift in Sources */,
+				1CF5B5C520F186C700A0EE51 /* Animation.swift in Sources */,
+				1CB53F4C206C61400070919F /* UITheme.swift in Sources */,
+				1C931C5125118EAC00064CB8 /* AppTabBarController.swift in Sources */,
+				1C86D0B722FA8B5900423808 /* NumberAbbreviation.swift in Sources */,
+				1C25904020D76AC70015DD92 /* TradingViewController.swift in Sources */,
+				1C21E185210BDD0C009D69B2 /* AlertController.swift in Sources */,
+				1CDA04091F8096B0001F2C4F /* PositionTableViewCell.swift in Sources */,
+				1C81CC381F577C1E004B9CD6 /* PositionsViewController.swift in Sources */,
+				1CDB00C920D959DA009E2644 /* ResponderPickerView.swift in Sources */,
+				1C8BE7972094C29D00C6A558 /* GraphView.swift in Sources */,
+				1C25C2B8207BD2EC00E56FE2 /* UIResponderExtension.swift in Sources */,
+				1C2F10CD2076919600D0B917 /* TableViewHeaderCell.swift in Sources */,
+				1CAEFB2E2103A37000654279 /* UserAgent.swift in Sources */,
+				1C23EE2220EC345B00A79902 /* Treeable.swift in Sources */,
+				1C931C4A251160B100064CB8 /* AdaptiveArrayPresentableController.swift in Sources */,
+				1C2984D32501548200AB4A12 /* NewPositionTableViewCell.swift in Sources */,
+				1CF1BA8020B4B6A70000B169 /* TimeIntervalExtension.swift in Sources */,
+				1C35F2CB20E6B652002136B0 /* UIKitExtensions.swift in Sources */,
+				1C81CC3A1F58CF32004B9CD6 /* SymbolViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C3AF60120B893D1006B667E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CEAA15E1F460B47004EEA78 /* Obsidian */;
+			targetProxy = 1C3AF60020B893D1006B667E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C3C409A20BF8E930089C1DD /* BalanceTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C3C409B20BF8F400089C1DD /* Base */,
+				1C3A620E211244FC00242C18 /* fr-CA */,
+			);
+			name = BalanceTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		1C3C409E20C07C360089C1DD /* OpenCloseView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C3C409F20C07EE90089C1DD /* Base */,
+				1CAB046D20C221DE00E3DCA6 /* fr-CA */,
+			);
+			name = OpenCloseView.xib;
+			sourceTree = "<group>";
+		};
+		1C3C40A220C07F140089C1DD /* PositionTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C3C40A120C07F140089C1DD /* Base */,
+				1CAB046C20C221DE00E3DCA6 /* fr-CA */,
+			);
+			name = PositionTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		1CA1C99B20C33ABD000F5234 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CA1C99C20C33ABD000F5234 /* Base */,
+				1CA1C99E20C33AD0000F5234 /* fr-CA */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1CA1C99F20C33BA6000F5234 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CA1C9A020C33BA6000F5234 /* Base */,
+				1CA1C9A220C33EF3000F5234 /* fr-CA */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		1CBFC306210F79C30014137D /* ObsidianPrivacyPolicy.txt */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CBFC305210F79C30014137D /* Base */,
+				1CBFC307210F79CA0014137D /* fr-CA */,
+			);
+			name = ObsidianPrivacyPolicy.txt;
+			sourceTree = "<group>";
+		};
+		1CEAA1661F460B47004EEA78 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CEAA1671F460B47004EEA78 /* Base */,
+				1C199F15210FECA30019F1FB /* fr-CA */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CEAA16B1F460B47004EEA78 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CEAA16C1F460B47004EEA78 /* Base */,
+				1CAB047020C221DE00E3DCA6 /* fr-CA */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C3AF60320B893D1006B667E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2V9KYH4KN;
+				INFOPLIST_FILE = ObsidianUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elislade.ObsidianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Obsidian;
+			};
+			name = Debug;
+		};
+		1C3AF60420B893D1006B667E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N2V9KYH4KN;
+				INFOPLIST_FILE = ObsidianUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.elislade.ObsidianUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Obsidian;
+			};
+			name = Release;
+		};
+		1CEAA16F1F460B47004EEA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 14;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Debug;
+		};
+		1CEAA1701F460B47004EEA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 14;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "";
+			};
+			name = Release;
+		};
+		1CEAA1721F460B47004EEA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97B5CEAD6926F85F86DC5887 /* Pods-Obsidian.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CLANG_OPTIMIZATION_PROFILE_FILE = "$(SRCROOT)/OptimizationProfiles/$(PROJECT_NAME).profdata";
+				CODE_SIGN_ENTITLEMENTS = Obsidian/Obsidian.entitlements;
+				CURRENT_PROJECT_VERSION = 15;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N2V9KYH4KN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Obsidian/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elislade.Obsidian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		1CEAA1731F460B47004EEA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD82BD4D3501E59E14414D5A /* Pods-Obsidian.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CLANG_OPTIMIZATION_PROFILE_FILE = "$(SRCROOT)/OptimizationProfiles/$(PROJECT_NAME).profdata";
+				CODE_SIGN_ENTITLEMENTS = Obsidian/Obsidian.entitlements;
+				CURRENT_PROJECT_VERSION = 15;
+				DEVELOPMENT_TEAM = N2V9KYH4KN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Obsidian/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.elislade.Obsidian;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C3AF60220B893D1006B667E /* Build configuration list for PBXNativeTarget "ObsidianUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C3AF60320B893D1006B667E /* Debug */,
+				1C3AF60420B893D1006B667E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CEAA15A1F460B47004EEA78 /* Build configuration list for PBXProject "Obsidian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CEAA16F1F460B47004EEA78 /* Debug */,
+				1CEAA1701F460B47004EEA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CEAA1711F460B47004EEA78 /* Build configuration list for PBXNativeTarget "Obsidian" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CEAA1721F460B47004EEA78 /* Debug */,
+				1CEAA1731F460B47004EEA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1CEAA1571F460B47004EEA78 /* Project object */;
+}

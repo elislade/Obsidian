@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "33"; ObjectID = "Wlb-0v-Ytj"; */
+"Wlb-0v-Ytj.text" = "33";
+
+/* Class = "UILabel"; text = "AAPL"; ObjectID = "d6f-Aj-bAv"; */
+"d6f-Aj-bAv.text" = "AAPL";
+
+/* Class = "UILabel"; text = "AVG. PRICE"; ObjectID = "fUv-iH-bTK"; */
+"fUv-iH-bTK.text" = "Prix moyen";
+
+/* Class = "UIButton"; normalTitle = "0.00"; ObjectID = "lMi-mb-zrh"; */
+"lMi-mb-zrh.normalTitle" = "0.00";
+
+/* Class = "UILabel"; text = "MARKET VAL."; ObjectID = "q7y-uo-FDF"; */
+"q7y-uo-FDF.text" = "Valeur Marché";
+
+/* Class = "UILabel"; text = "33"; ObjectID = "wIq-I8-KdH"; */
+"wIq-I8-KdH.text" = "33";

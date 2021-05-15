@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ScrollTabView" customModule="Obsidian" customModuleProvider="target">
+            <connections>
+                <outlet property="tabContentView" destination="lbl-3A-wtk" id="QKl-Ar-l56"/>
+                <outlet property="tabImageView" destination="3d0-ni-y6B" id="qvr-kk-FZn"/>
+                <outlet property="tabLabelView" destination="zmg-jg-INx" id="gmK-mC-bDh"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="597" height="782"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lbl-3A-wtk">
+                    <rect key="frame" x="0.0" y="0.0" width="597" height="782"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FXk-qL-XQw" customClass="ThemedEffectView" customModule="Obsidian" customModuleProvider="target">
+                    <rect key="frame" x="0.0" y="0.0" width="597" height="60"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="azy-8h-QkJ">
+                        <rect key="frame" x="0.0" y="0.0" width="597" height="60"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="fM3-uc-9CM">
+                                <rect key="frame" x="8" y="4" width="581" height="52"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="balance-fill" translatesAutoresizingMaskIntoConstraints="NO" id="3d0-ni-y6B">
+                                        <rect key="frame" x="0.0" y="13.5" width="34" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="34" id="uxw-Mq-Jsw"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tab Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zmg-jg-INx">
+                                        <rect key="frame" x="42" y="13" width="539" height="26.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8h8-Xp-LAa">
+                                        <rect key="frame" x="581" y="-5" width="0.0" height="62"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                    </view>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="fM3-uc-9CM" firstAttribute="leading" secondItem="azy-8h-QkJ" secondAttribute="leading" constant="8" id="0i3-xv-V8v"/>
+                            <constraint firstItem="fM3-uc-9CM" firstAttribute="top" secondItem="azy-8h-QkJ" secondAttribute="top" constant="4" id="FRc-2P-ggd"/>
+                            <constraint firstAttribute="bottom" secondItem="fM3-uc-9CM" secondAttribute="bottom" constant="4" id="Uln-23-yb5"/>
+                            <constraint firstAttribute="trailing" secondItem="fM3-uc-9CM" secondAttribute="trailing" constant="8" id="eL9-xr-15r"/>
+                        </constraints>
+                    </view>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="3gz-lk-0ws"/>
+                    </constraints>
+                    <blurEffect style="regular"/>
+                </visualEffectView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="viewFlipsideBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="FXk-qL-XQw" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="5nx-B5-yto"/>
+                <constraint firstItem="FXk-qL-XQw" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="AUa-lP-qBn"/>
+                <constraint firstItem="lbl-3A-wtk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Gwz-rh-eUd"/>
+                <constraint firstAttribute="bottom" secondItem="lbl-3A-wtk" secondAttribute="bottom" id="J3J-H2-uoN"/>
+                <constraint firstItem="lbl-3A-wtk" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="iYm-Tv-dya"/>
+                <constraint firstItem="FXk-qL-XQw" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="jLW-WU-olA"/>
+                <constraint firstItem="lbl-3A-wtk" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="rbb-y4-r54"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <real key="value" value="0.0"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="FXk-qL-XQw"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="5nx-B5-yto"/>
+                    <exclude reference="AUa-lP-qBn"/>
+                    <exclude reference="jLW-WU-olA"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="41.304347826086961" y="45.535714285714285"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="balance-fill" width="21" height="25"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="viewFlipsideBackgroundColor">
+            <color red="0.1215686274509804" green="0.12941176470588239" blue="0.14117647058823529" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
